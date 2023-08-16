@@ -1,3 +1,111 @@
 @media (max-width:1140px) {
-    
+    .header__nav-box,
+    .main__box-title,
+    .footer__top-box,
+    .footer__bottom-box {
+        padding: 0 15px;
+    }
+    .header__nav-list-subscribe {
+        padding: 10px 36px;
+    }
+    .main__box-item-right {
+        width: 500px;
+    }
+    .main__box-item-text {
+        width: 450px;
+    }
+    .main__box-item {
+        padding: 0 10px;
+    }
+    .main__middle-box-4 {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .main__middle-box-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:900px) {
+    .main__box-item {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__main-box {
+        padding: 0 15px;
+    }
+    .header__nav-list-subscribe  {
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width:700px) {
+    .footer__middle-box {
+        flex-wrap: wrap;
+    }
+    .main__box-title {
+        margin: 0 auto;
+        font-size: 32px;
+    }
+    .header__nav-box,
+    .footer__top-box,
+    .footer__bottom-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header__nav-list-subscribe  {
+        padding: 10px 30px;
+    }
+    .header__main-box-text {
+        width: 400px;
+    }
+        .header__nav-list-subscribe  {
+        padding: 10px 30px;
+    }
+    .main__middle-box-4 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:500px) {
+    .header__nav-list {
+        flex-wrap: wrap;
+    }
+    .header__nav-box {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__form {
+        flex-wrap: wrap;
+    }
+    .main__box-item-img {
+        max-width: 400px;
+        width: 100%;
+    }
+    .main__box-item-right {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main__box-item-text {
+        width: 360px;
+    }
+    .main__box-item-title {
+        width: 360px;
+    }
+    .main__bottom-box-text {
+        width: 50px;
+    }
+    .main__bottom-box-title {
+        width: 100px;
+    }
 }
